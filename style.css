@@ -130,3 +130,20 @@ span{
     display: block;
     margin:auto;
 }
+
+.instagram-section{
+    width: 50%;
+    margin: auto;
+}
+
+.instagram-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:15px;
+}
+
+.insta-img{
+    width: 280px;
+    height: 300px;
+}
