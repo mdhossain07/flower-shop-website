@@ -28,7 +28,7 @@
 }
 
 .banner-img{
-    width: 600px;
+    width: 580px;
     height: 745px;
 }
 
@@ -116,6 +116,7 @@
     width: 40%;
     margin: auto;
 }
+
 span{
     color: #E55473;
 }
@@ -128,7 +129,7 @@ span{
 
 .deal-btn{
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 .instagram-section{
@@ -146,4 +147,32 @@ span{
 .insta-img{
     width: 280px;
     height: 300px;
+}
+
+.newsletter-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletter-container{
+    height: 300px;
+    margin: 120px auto;
+    border-radius: 8px;
+    background-size: cover;
+    width: 77%;
+    background-image: url('./images/Rectangle\ 9.png');
+}
+
+input{
+    margin-right: 10px;
+    width: 500px;
+    height: 50px;
+    text-indent: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form{
+    text-align: center;
 }
