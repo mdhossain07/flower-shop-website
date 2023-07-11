@@ -4,6 +4,26 @@
     font-family: 'Lato', sans-serif;
 }
 
+section{
+    margin: 120px 0;
+}
+
+.section-title{
+    margin-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.section-description{
+    margin: 10px 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .banner-container{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -14,7 +34,7 @@
 
 .banner-title{
     color: #272727;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bolder;
 }
 
@@ -51,53 +71,41 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
-}
-
-.featured-title{
-    margin-top: 100px;
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
-}
-
-.featured-description{
-    margin: 10px 0;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.flower-boxes{
+    gap: 5px;
     margin: 50px 0;
 }
 
-.featured-img{
-    width: 310px;
-    height: 360px;
-    background-color: lightyellow;
+.featured-box{
+    width: 350px;
+    height: 450px;
+    background-color: yellow;
     border-radius: 300px 300px 0px 0px;
 }
 
-.bg-1{
-    background-color: rgba(167, 33, 98, 0.15);
- } 
+.featured-box > img{
+    margin-top: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 25px;
+}
 
-.bg-2{
+.box-1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.box-2{
     background-color: rgba(5, 151, 160, 0.15);
 }
 
-.bg-3{
-    background-color: rgba(71, 125, 17, 0.15);
-} 
+.box-3{
+    background: rgba(71, 125, 17, 0.15);
+}
 
 .flower-info{
     color: #272727;
     margin: 10px 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     text-decoration-line: underline;
 }
@@ -118,7 +126,7 @@
 }
 
 .deal-container{
-    margin-top: 120px;
+    padding: 70px 0;
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -138,7 +146,7 @@
 .deal-img{
     margin-right: 250px;
     width: 300px;
-    height: 420px;
+    height: 380px;
 }
 
 .deal-btn{
@@ -152,11 +160,11 @@
 }
 
 .instagram-container{
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap:15px;
-    margin-top: 30px;
 }
 
 .insta-img{
@@ -171,7 +179,7 @@
 
 .blog-section{
     width: 80%;
-    margin: auto;
+    margin: 150px auto;
 }
 
 .blog-container{
@@ -179,7 +187,6 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 30px;
 }
 
 .blog-img{
@@ -202,8 +209,8 @@
 }
 
 .newsletter-container{
-    height: 400px;
-    margin: 120px auto;
+    height: 350px;
+    margin: auto;
     border-radius: 8px;
     background-size: cover;
     width: 77%;
@@ -223,13 +230,8 @@ input{
     text-align: center;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-}
-
 .footer-container{
-    height: 300px;
+    padding: 100px;
     text-align: center;
     background-color: #111010;
 }
