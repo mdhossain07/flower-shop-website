@@ -117,7 +117,7 @@
     margin: auto;
 }
 
-span{
+.text-primary{
     color: #E55473;
 }
 
@@ -149,14 +149,29 @@ span{
     height: 300px;
 }
 
+
+.blog-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 1px;
+}
+
+
+.blog-img{
+    width: 330px;
+    height: 300px;
+    border-radius: 5px;
+}
+
 .newsletter-section{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 .newsletter-container{
-    height: 300px;
+    height: 400px;
     margin: 120px auto;
     border-radius: 8px;
     background-size: cover;
@@ -175,4 +190,33 @@ input{
 
 .form{
     text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    height: 300px;
+    text-align: center;
+    background-color: #111010;
+}
+
+.footer-title{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    margin: 10px;
+}
+
+.copyright{
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 15px;
 }
